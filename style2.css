@@ -1,0 +1,84 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Logout Link Styling */
+.logout-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f44336;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logout-link:hover {
+    background-color: #d32f2f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Center Content */
+.center {
+    text-align: center;
+    margin-top: 60px; /* To avoid overlap with the logout link */
+    color: #333; /* Neutral dark text color */
+}
+
+/* Table Styling */
+table {
+    width: 90%; /* Reduce width slightly for better aesthetics */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+table td {
+    color: #555;
+}
+
+/* No Bookings Row Styling */
+table td[colspan="5"] {
+    color: #888;
+    font-style: italic;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #444;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #666;
+    font-size: 22px;
+    margin-top: 20px;
+}
